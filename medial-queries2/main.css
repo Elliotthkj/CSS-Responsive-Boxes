@@ -1,3 +1,95 @@
 body {
-  background: papayawhip;
+  background: blanchedalmond;
+}
+
+* {
+  /* border: 1px solid red; */
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.a,
+.f {
+  height: 18.5vh;
+  margin: 1rem 1rem 0 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+  background-color: grey;
+}
+
+.b {
+  height: 38vh;
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+  background-color: grey;
+}
+
+.cde {
+  height: 18.5vh;
+  margin: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.c,
+.d,
+.e {
+  height: 100%;
+  width: 32%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+  background-color: grey;
+}
+
+.f {
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 767px) {
+  .a {
+    height: 32vh;
+  }
+
+  .bcdef {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .bcde {
+    height: 65vh;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .cde {
+    height: 50%; 
+    margin: 0 1rem;
+    padding: 0;
+  }
+
+  .b {
+    height: 50%; 
+  }
+
+  .f {
+    height: 64vh;
+    width: 25%;
+  }
 }
